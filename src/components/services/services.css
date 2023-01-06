@@ -164,7 +164,8 @@ font-size: 1.1rem;
         grid-template-columns: max-content;
     }
     
-    .services__con6rem;
+    .services__content{
+        padding-right: 6rem;
     }
 
     .services__modal-description{
