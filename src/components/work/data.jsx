@@ -1,45 +1,433 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import pro1 from "../../assets/proj1png.png";
+import pro2 from "../../assets/proj2.png";
+import pro3 from "../../assets/proj3.png";
+import pro4 from "../../assets/proj4.png";
+import pro5 from "../../assets/proj5.png";
+import pro6 from "../../assets/proj6.png";
+import pro7 from "../../assets/proj7.png";
+import pro8 from "../../assets/proj8.png";
+import pro9 from "../../assets/proj9.png";
+import pro10 from "../../assets/proj10.png";
+import pro11 from "../../assets/proj11.png";
+import pro12 from "../../assets/proj12.png";
+import pro13 from "../../assets/proj13.png";
+import pro14 from "../../assets/proj14.png";
+import pro15 from "../../assets/proj15.png";
+import pro16 from "../../assets/proj16.png";
+import pro17 from "../../assets/proj17.png";
+import pro18 from "../../assets/proj18.png";
+import pro19 from "../../assets/proj19.png";
+import pro21 from "../../assets/design/1.jpg";
+import pro22 from "../../assets/design/2.jpg";
+import pro23 from "../../assets/design/3.jpg";
+import pro24 from "../../assets/design/4.jpg";
+import pro25 from "../../assets/design/5.png";
+import pro26 from "../../assets/design/6.jpg";
+import pro27 from "../../assets/design/7.jpg";
+import pro28 from "../../assets/design/8.jpg";
+import pro29 from "../../assets/design/9.jpg";
+import pro30 from "../../assets/design/10.jpg";
+import pro31 from "../../assets/design/11.jpg";
+import pro32 from "../../assets/design/12.jpg";
+import pro33 from "../../assets/design/13.jpg";
+import pro34 from "../../assets/design/14.jpg";
+import pro35 from "../../assets/design/15.jpg";
+import pro36 from "../../assets/design/16.jpg";
+import pro37 from "../../assets/design/17.jpg";
+import pro38 from "../../assets/design/18.jpg";
+import pro39 from "../../assets/design/19.jpg";
+import pro40 from "../../assets/design/20.jpg";
+import pro41 from "../../assets/design/21.jpg";
+import pro42 from "../../assets/design/22.jpg";
+import pro43 from "../../assets/design/23.jpg";
+import pro44 from "../../assets/design/24.jpg";
+import pro45 from "../../assets/design/25.jpg";
+import pro46 from "../../assets/design/26.jpg";
+import pro47 from "../../assets/design/27.jpg";
+import pro48 from "../../assets/design/28.jpg";
+import pro49 from "../../assets/design/29.jpg";
+import pro50 from "../../assets/design/30.jpg";
+
 
 
 export const projectsData=[
     {
         id: 1,
-        image: Work1,
+        image: pro1,
         title: 'Web Design',
         category: 'web',
     },
 
     {
         id: 2,
-        image: Work2,
-        title: 'App design',
-        category: 'app',
+        image: pro2,
+        title: 'Web Design',
+        category: 'web',
     },
 
     {
         id: 3,
-        image: Work3,
-        title: 'Brand Design',
-        category: 'design',
+        image: pro3,
+        title: 'Web Design',
+        category: 'web',
     },
+
 
     {
         id: 4,
-        image: Work4,
-        title: 'App movil',
-        category: 'app',
+        image: pro4,
+        title: 'Web Design',
+        category: 'web',
     },
 
     {
         id: 5,
-        image: Work5,
+        image: pro5,
         title: 'Web Design',
         category: 'web',
     },
+
+
+    {
+        id: 1,
+        image: pro1,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 6,
+        image: pro6,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 7,
+        image: pro7,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id:8,
+        image: pro8,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 9,
+        image: pro9,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 10,
+        image: pro10,
+        title: 'Web Design',
+        category: 'web',
+    },
+    {
+        id: 11,
+        image: pro11,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+    {
+        id: 12,
+        image: pro12,
+        title: 'Web Design',
+        category: 'web',
+    },
+    {
+        id: 13,
+        image: pro13,
+        title: 'Web Design',
+        category: 'web',
+    },
+    {
+        id: 14,
+        image: pro14,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 15,
+        image: pro15,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+
+    {
+        id: 16,
+        image: pro16,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+    {
+        id: 17,
+        image: pro17,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+    {
+        id: 18,
+        image: pro18,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+    {
+        id: 19,
+        image: pro19,
+        title: 'Web Design',
+        category: 'web',
+    },
+
+    {
+        id: 21,
+        image: pro21,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 22,
+        image: pro22,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 23,
+        image: pro23,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 24,
+        image: pro24,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 25,
+        image: pro25,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 26,
+        image: pro26,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 27,
+        image: pro27,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 28,
+        image: pro28,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 29,
+        image: pro29,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 30,
+        image: pro30,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 31,
+        image: pro31,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 32,
+        image: pro32,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 33,
+        image: pro21,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+
+    {
+        id: 34,
+        image: pro34,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 35,
+        image: pro35,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 36,
+        image: pro36,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 37,
+        image: pro37,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 38,
+        image: pro38,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 39,
+        image: pro39,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 40,
+        image: pro40,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 41,
+        image: pro41,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 42,
+        image: pro42,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 43,
+        image: pro43,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 44,
+        image: pro44,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 45,
+        image: pro45,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 46,
+        image: pro46,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+
+    {
+        id: 47,
+        image: pro39,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 48,
+        image: pro48,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 49,
+        image: pro49,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
+    {
+        id: 50,
+        image: pro50,
+        title: 'graphics design',
+        category: 'graphics design',
+    },
+
 ];
 
 export const projectsNav =[
@@ -51,10 +439,10 @@ export const projectsNav =[
     },
 
     {
-        name: 'app',
+        name: 'graphics design',
     },
 
     {
-        name: 'design',
+        name: 'general project',
     }
 ]
