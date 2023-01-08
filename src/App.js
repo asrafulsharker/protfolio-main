@@ -11,6 +11,7 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Scrollup from './components/scrollup/scrollup';
 import Work from './components/work/work';
+import Gallary from "./components/photogallary/gallary";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Qualification/>
       <Work/>
       <Testimonials/>
+      <Gallary/>
       <Contact/>
     </main>
     <Footer/>
