@@ -47,6 +47,20 @@ import pro47 from "../../assets/design/27.jpg";
 import pro48 from "../../assets/design/28.jpg";
 import pro49 from "../../assets/design/29.jpg";
 import pro50 from "../../assets/design/30.jpg";
+import pro51 from "../../assets/certificate/1.jpg";
+import pro52 from "../../assets/certificate/2.jfif";
+import pro53 from "../../assets/certificate/3.jfif";
+import pro54 from "../../assets/certificate/4.jfif";
+import pro55 from "../../assets/certificate/5.jfif";
+import pro56 from "../../assets/certificate/6.jpg";
+import pro57 from "../../assets/certificate/7.jpg";
+import pro58 from "../../assets/certificate/8.png";
+import pro59 from "../../assets/certificate/9.jpg";
+import pro60 from "../../assets/certificate/10.jpg";
+import pro61 from "../../assets/certificate/11.jpg";
+import pro62 from "../../assets/certificate/12.jpg";
+import pro63 from "../../assets/certificate/13.jpg";
+import pro64 from "../../assets/certificate/14.png";
 
 
 
@@ -294,7 +308,7 @@ export const projectsData=[
 
     {
         id: 33,
-        image: pro21,
+        image: pro33,
         title: 'graphics design',
         category: 'graphics design',
     },
@@ -402,7 +416,7 @@ export const projectsData=[
 
     {
         id: 47,
-        image: pro39,
+        image: pro47,
         title: 'graphics design',
         category: 'graphics design',
     },
@@ -427,6 +441,108 @@ export const projectsData=[
         title: 'graphics design',
         category: 'graphics design',
     },
+    {
+        id: 51,
+        image: pro51,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 52,
+        image: pro52,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 53,
+        image: pro53,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 54,
+        image: pro54,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 55,
+        image: pro55,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 56,
+        image: pro56,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 57,
+        image: pro57,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 58,
+        image: pro58,
+        title: 'certificate',
+        category: 'certificate',
+    },
+    {
+        id: 59,
+        image: pro59,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 60,
+        image: pro60,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+
+    {
+        id: 61,
+        image: pro61,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 62,
+        image: pro62,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 63,
+        image: pro63,
+        title: 'certificate',
+        category: 'certificate',
+    },
+
+    {
+        id: 64,
+        image: pro64,
+        title: 'certificate',
+        category: 'certificate',
+    },
 
 ];
 
@@ -444,5 +560,8 @@ export const projectsNav =[
 
     {
         name: 'general project',
+    },
+    {
+        name: 'certificate',
     }
 ]
