@@ -1,4 +1,4 @@
-import Work1 from "https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
+import Work1 from "https://th.bing.com/th/id/R.24078d0450e2e9b74d99d858831096da?rik=Wg8QFfdeK3csxg&pid=ImgRaw&r=0";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
