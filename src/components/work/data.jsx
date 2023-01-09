@@ -1,4 +1,3 @@
-import pro1 from "../../assets/proj1png.png";
 import pro2 from "../../assets/proj2.png";
 import pro3 from "../../assets/proj3.png";
 import pro4 from "../../assets/proj4.png";
@@ -24,29 +23,21 @@ import pro24 from "../../assets/design/4.jpg";
 import pro25 from "../../assets/design/5.png";
 import pro26 from "../../assets/design/6.jpg";
 import pro27 from "../../assets/design/7.jpg";
-import pro28 from "../../assets/design/8.jpg";
 import pro29 from "../../assets/design/9.jpg";
-import pro30 from "../../assets/design/10.jpg";
-import pro31 from "../../assets/design/11.jpg";
 import pro32 from "../../assets/design/12.jpg";
 import pro33 from "../../assets/design/13.jpg";
 import pro34 from "../../assets/design/14.jpg";
 import pro35 from "../../assets/design/15.jpg";
 import pro36 from "../../assets/design/16.jpg";
 import pro37 from "../../assets/design/17.jpg";
-import pro38 from "../../assets/design/18.jpg";
 import pro39 from "../../assets/design/19.jpg";
 import pro40 from "../../assets/design/20.jpg";
 import pro41 from "../../assets/design/21.jpg";
-import pro42 from "../../assets/design/22.jpg";
-import pro43 from "../../assets/design/23.jpg";
-import pro44 from "../../assets/design/24.jpg";
 import pro45 from "../../assets/design/25.jpg";
 import pro46 from "../../assets/design/26.jpg";
 import pro47 from "../../assets/design/27.jpg";
 import pro48 from "../../assets/design/28.jpg";
 import pro49 from "../../assets/design/29.jpg";
-import pro50 from "../../assets/design/30.jpg";
 import pro51 from "../../assets/certificate/1.jpg";
 import pro52 from "../../assets/certificate/2.jfif";
 import pro53 from "../../assets/certificate/3.jfif";
@@ -65,12 +56,6 @@ import pro64 from "../../assets/certificate/14.png";
 
 
 export const projectsData=[
-    {
-        id: 1,
-        image: pro1,
-        title: 'Web Design',
-        category: 'web',
-    },
 
     {
         id: 2,
@@ -103,14 +88,6 @@ export const projectsData=[
 
 
     {
-        id: 1,
-        image: pro1,
-        title: 'Web Design',
-        category: 'web',
-    },
-
-
-    {
         id: 6,
         image: pro6,
         title: 'Web Design',
@@ -127,7 +104,7 @@ export const projectsData=[
 
 
     {
-        id:8,
+        id:51,
         image: pro8,
         title: 'Web Design',
         category: 'web',
@@ -212,7 +189,7 @@ export const projectsData=[
     },
 
     {
-        id: 21,
+        id: 1,
         image: pro21,
         title: 'graphics design',
         category: 'graphics design',
@@ -266,13 +243,6 @@ export const projectsData=[
     },
 
 
-    {
-        id: 28,
-        image: pro28,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
 
     {
         id: 29,
@@ -280,23 +250,6 @@ export const projectsData=[
         title: 'graphics design',
         category: 'graphics design',
     },
-
-
-    {
-        id: 30,
-        image: pro30,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
-
-    {
-        id: 31,
-        image: pro31,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
 
     {
         id: 32,
@@ -348,14 +301,6 @@ export const projectsData=[
 
 
     {
-        id: 38,
-        image: pro38,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
-
-    {
         id: 39,
         image: pro39,
         title: 'graphics design',
@@ -373,28 +318,6 @@ export const projectsData=[
     {
         id: 41,
         image: pro41,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
-
-    {
-        id: 42,
-        image: pro42,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
-    {
-        id: 43,
-        image: pro43,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
-
-    {
-        id: 44,
-        image: pro44,
         title: 'graphics design',
         category: 'graphics design',
     },
@@ -435,12 +358,6 @@ export const projectsData=[
         category: 'graphics design',
     },
 
-    {
-        id: 50,
-        image: pro50,
-        title: 'graphics design',
-        category: 'graphics design',
-    },
     {
         id: 51,
         image: pro51,
