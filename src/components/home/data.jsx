@@ -68,9 +68,9 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg> */}
-               
+               <div className="container" ref={container}></div>
         </h1>
-        <div className="container" ref={container}></div>
+        
         <h3 className="home__subtitle">VisualDeveloper</h3>
         <p className="home__description">I have worked on several projects in the past half a year and gained expertise in frontend technologies such as HTML, CSS, Bootstrap, tailwind, JavaScript, and React JS, Firebase. I am also comfortable with the backend technologies like node.js, express, and MongoDB. I am also comfortable with Graphics Design.
 
