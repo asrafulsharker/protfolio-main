@@ -16,6 +16,7 @@ import pro16 from "../../assets/proj16.png";
 import pro17 from "../../assets/proj17.png";
 import pro18 from "../../assets/proj18.png";
 import pro19 from "../../assets/proj19.png";
+import pro20 from "../../assets/proj20.png";
 import pro21 from "../../assets/design/1.jpg";
 import pro22 from "../../assets/design/2.jpg";
 import pro23 from "../../assets/design/3.jpg";
@@ -60,139 +61,165 @@ export const projectsData=[
     {
         id: 2,
         image: pro2,
-        title: 'Web Design',
+        title: 'Certificate Generator',
         category: 'web',
+        link:"https://cdc-certificate-bootcamp.netlify.app",
     },
 
     {
         id: 3,
         image: pro3,
-        title: 'Web Design',
+        title: 'General Protfolio',
         category: 'web',
+        link:"https://shahriar-abdullah.netlify.app",
     },
 
 
     {
         id: 4,
         image: pro4,
-        title: 'Web Design',
+        title: 'Sylhet Agricultural University',
         category: 'web',
+        link:"https://sau-web-new.netlify.app",
     },
 
     {
         id: 5,
         image: pro5,
-        title: 'Web Design',
+        title: 'Birthday wish',
         category: 'web',
+        link:"https://happy-birthday-pb.netlify.app",
     },
 
 
     {
         id: 6,
         image: pro6,
-        title: 'Web Design',
+        title: 'Research Nirob',
         category: 'web',
+        link:"https://researchnirob.netlify.app",
     },
 
 
     {
         id: 7,
         image: pro7,
-        title: 'Web Design',
+        title: 'IOT Lab Website',
         category: 'web',
+        link:'https://iotlabdiu.netlify.app',
     },
 
 
     {
         id:51,
         image: pro8,
-        title: 'Web Design',
+        title: 'Classy Software Server',
         category: 'web',
+        link:'https://your-classy.netlify.app',
     },
 
 
     {
         id: 9,
         image: pro9,
-        title: 'Web Design',
+        title: 'Wholesale BD Website',
         category: 'web',
+        link:'https://wholesalebd.netlify.app',
     },
 
 
     {
         id: 10,
         image: pro10,
-        title: 'Web Design',
+        title: 'Faceland Mark',
         category: 'web',
+        link:'https://facelandmark.netlify.app',
     },
     {
         id: 11,
         image: pro11,
-        title: 'Web Design',
+        title: 'Trip BD Tour Advisor',
         category: 'web',
+        link:'https://tip-advisor.netlify.app',
     },
 
     {
         id: 12,
         image: pro12,
-        title: 'Web Design',
+        title: 'Pondith Online Learners',
         category: 'web',
+        link:'https://pondith-online-learners.netlify.app',
     },
     {
         id: 13,
         image: pro13,
-        title: 'Web Design',
+        title: 'Protfolio Website',
         category: 'web',
+        link:'https://portfolio00001.netlify.app',
     },
     {
         id: 14,
         image: pro14,
-        title: 'Web Design',
+        title: 'E-Food Website',
         category: 'web',
+        link:'https://e-food71.netlify.app',
     },
 
 
     {
         id: 15,
         image: pro15,
-        title: 'Web Design',
+        title: 'Chat Application',
         category: 'web',
+        link: 'https://toxic-chat-app.netlify.app',
     },
 
 
     {
         id: 16,
         image: pro16,
-        title: 'Web Design',
+        title: 'Protfolio Website',
         category: 'web',
+        link: 'https://asnirob.netlify.app',
     },
 
     {
         id: 17,
         image: pro17,
-        title: 'Web Design',
+        title: 'Resort Booking Website',
         category: 'web',
+        link:'https://toxic-resort-app.netlify.app',
     },
 
     {
         id: 18,
         image: pro18,
-        title: 'Web Design',
+        title: 'Protfilio Website',
         category: 'web',
+        link:'https://ahsanfe.netlify.app'
     },
 
     {
         id: 19,
         image: pro19,
-        title: 'Web Design',
+        title: 'Protfilio Website',
         category: 'web',
+        link:'https://nahid123.netlify.app'
+    },
+    {
+        id: 20,
+        image: pro20,
+        title: 'Chat Group',
+        category: 'web',
+        link:'https://chat-with-toxic.netlify.app'
     },
 
     {
-        id: 1,
+        id: 21,
         image: pro21,
-        title: 'graphics design',
+        title: 'Hiring Career Ambassador',
         category: 'graphics design',
+        link:"../../assets/design/1.jpg"
     },
 
     {
