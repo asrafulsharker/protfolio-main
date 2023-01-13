@@ -68,7 +68,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg> */}
-               <div className="container" ref={container}></div>
+               <div className="about__me-icon" ref={container}></div>
         </h1>
         
         <h3 className="home__subtitle">VisualDeveloper</h3>
