@@ -111,7 +111,7 @@ export const projectsData=[
 
 
     {
-        id:51,
+        id:8,
         image: pro8,
         title: 'Classy Software Server',
         category: 'web',
