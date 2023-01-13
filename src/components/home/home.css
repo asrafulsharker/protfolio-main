@@ -76,6 +76,10 @@
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
+.about__me-icon svg{
+    height: 50% !important;
+}
+
 @keyframes profile__animate{
     0%{
         border-radius: 60% 40% 70% 40%/50% 30% 70% 40%;

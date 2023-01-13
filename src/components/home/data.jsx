@@ -1,5 +1,6 @@
 import React,{ useRef, useEffect } from 'react';
 import Lottie from 'lottie-web';
+import './home.css';
 
 const Data = () => {
   const container = useRef(null)
