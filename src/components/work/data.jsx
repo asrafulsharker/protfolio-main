@@ -537,9 +537,9 @@ export const projectsNav =[
         name: 'graphics design',
     },
 
-    {
-        name: 'general project',
-    },
+    // {
+    //     name: 'general project',
+    // },
     {
         name: 'certificate',
     }
