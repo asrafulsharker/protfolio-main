@@ -4,7 +4,7 @@
 
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 3.5rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -78,6 +78,7 @@
 
 .about__me-icon svg{
     height: 50% !important;
+    width: 50% !important;
 }
 
 @keyframes profile__animate{
