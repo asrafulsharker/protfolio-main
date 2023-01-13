@@ -11,7 +11,7 @@ const Loading_test = () => {
           renderer: 'svg',
           loop : true,
           autoplay: true,
-          animationData: require('./speedycar.json')
+          animationData: require('./loading.json')
         })
       },[])
 

@@ -27,7 +27,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    }, 500000)
+    }, 4000)
   },[])
 
 
