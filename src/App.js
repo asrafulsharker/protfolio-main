@@ -1,5 +1,4 @@
 import React, { useState, useEffect,useRef } from 'react'
-import Lottie from 'lottie-web';
 import './App.css';
 import Header from './components/header/header';
 import Home from './components/home/home';
@@ -12,12 +11,13 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Scrollup from './components/scrollup/scrollup';
 import Work from './components/work/work';
+import Loading_test from './components/loading/loading_test';
 
 // import Gallary from "./components/photogallary/gallary";
 
 function App() {
 
-  const container = useRef(null)
+
 
 
 
@@ -27,25 +27,17 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    }, 100000)
+    }, 500000)
   },[])
 
-  useEffect(() => {
-    Lottie.loadAnimation({
-      container: container.current,
-      renderer: 'svg',
-      loop : true,
-      autoplay: true,
-      animationData: require('./loading.json')
-    })
-  },[])
+
 
   return (
     <div className='App'>
     {
       loading ?
       
-      <div className="container" ref={container}></div>
+      <Loading_test></Loading_test>
 
       :
 
