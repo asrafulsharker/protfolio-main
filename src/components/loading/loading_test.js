@@ -16,7 +16,7 @@ const Loading_test = () => {
       },[])
 
   return (
-    <div>
+    <div className='loading'>
       <div className="loading__icon" ref={container}></div>
     </div>
   )
