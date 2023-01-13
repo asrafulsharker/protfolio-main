@@ -28,7 +28,10 @@
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
 }
-
+.home__title-container{
+    /* display: flex; */
+    /* align-items: center; */
+}
 .home__subtitle{
     position: relative;
     font-size: var(--h3-font-size);
