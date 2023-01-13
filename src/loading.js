@@ -1,5 +1,5 @@
 import React from 'react';
-import Lottie from 'react-lottie';
+import Lottie from 'lottie-web';
 import * as loading from './loading.json';
 import * as done from './done.json';
 

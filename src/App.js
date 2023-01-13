@@ -1,4 +1,5 @@
-import React,{useState,useEffect,useRef} from 'react'
+import React, { useState, useEffect,useRef } from 'react'
+import Lottie from 'lottie-web';
 import './App.css';
 import Header from './components/header/header';
 import Home from './components/home/home';
@@ -11,59 +12,63 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Scrollup from './components/scrollup/scrollup';
 import Work from './components/work/work';
-import Loading from './loading';
+
 // import Gallary from "./components/photogallary/gallary";
 
 function App() {
 
-  const [data] = useState('');
-  const [loading, setLoading] = useState(undefined);
-  const [done, setDone] = useState(undefined);
+  const container = useRef(null)
+
+
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    }, 100000)
+  },[])
 
   useEffect(() => {
-    getData();
-  }, []);
-
-  const getData = () => {
-    setLoading(undefined);
-    setDone(undefined);
-
-    setTimeout(() => {
-      // fetch('')
-      // .then(res => res.json())
-      // .then(data => {
-        // setCat(data.file);
-        setLoading(true);
-        setTimeout(() => {
-          setDone(true);
-        }, 1200)
-      // })
-      // .catch(err => console.log(err));
-    }, 1200);
-  }
+    Lottie.loadAnimation({
+      container: container.current,
+      renderer: 'svg',
+      loop : true,
+      autoplay: true,
+      animationData: require('./loading.json')
+    })
+  },[])
 
   return (
-    <>
-    {!done?(
-        <Loading loading={loading}/>
-      ):(
-        <div>
-    <Header/>
-    <main className='main'>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Services/>
-      <Qualification/>
-      <Work/>
-      <Testimonials/>
-      <Contact/>
-    </main>
-    <Footer/>
-    <Scrollup/>
+    <div className='App'>
+    {
+      loading ?
+      
+      <div className="container" ref={container}></div>
+
+      :
+
+      <>
+       <Header />
+       <main className='main'>
+         <Home />
+         <About />
+         <Skills />
+         <Services />
+         <Qualification />
+         <Work />
+         <Testimonials />
+         <Contact />
+       </main>
+       <Footer />
+       <Scrollup />
+      </>
+
+     
+    }
     </div>
-      )}
-    </>
+    
   );
 }
 
