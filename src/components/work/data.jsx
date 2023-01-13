@@ -219,54 +219,60 @@ export const projectsData=[
         image: pro21,
         title: 'Hiring Career Ambassador',
         category: 'graphics design',
-        link:"../../assets/design/1.jpg"
+        link: pro21,
     },
 
     {
         id: 22,
         image: pro22,
-        title: 'graphics design',
+        title: 'Happy New Year Banner',
         category: 'graphics design',
+        link: pro22,
     },
 
 
     {
         id: 23,
         image: pro23,
-        title: 'graphics design',
+        title: 'Job Utsob Web Poster',
         category: 'graphics design',
+        link: pro23,
     },
 
 
     {
         id: 24,
         image: pro24,
-        title: 'graphics design',
+        title: 'Black Book Logo',
         category: 'graphics design',
+        link: pro24,
     },
 
 
     {
         id: 25,
         image: pro25,
-        title: 'graphics design',
+        title: 'Bootcamp Certificate',
         category: 'graphics design',
+        link: pro25,
     },
 
 
     {
         id: 26,
         image: pro26,
-        title: 'graphics design',
+        title: 'Job Utsob Crest Design',
         category: 'graphics design',
+        link: pro26,
     },
 
 
     {
         id: 27,
         image: pro27,
-        title: 'graphics design',
+        title: 'Job Utsob Crest Design',
         category: 'graphics design',
+        link: pro27,
     },
 
 
@@ -274,23 +280,26 @@ export const projectsData=[
     {
         id: 29,
         image: pro29,
-        title: 'graphics design',
+        title: 'Employability Masterclass Banner',
         category: 'graphics design',
+        link: pro29,
     },
 
     {
         id: 32,
         image: pro32,
-        title: 'graphics design',
+        title: 'Employability Masterclass Banner',
         category: 'graphics design',
+        link: pro32,
     },
 
 
     {
         id: 33,
         image: pro33,
-        title: 'graphics design',
+        title: 'Happy Birthday Poster',
         category: 'graphics design',
+        link: pro33,
     },
 
 
@@ -298,143 +307,161 @@ export const projectsData=[
     {
         id: 34,
         image: pro34,
-        title: 'graphics design',
+        title: 'ID Card Design',
         category: 'graphics design',
+        link: pro34,
     },
 
 
     {
         id: 35,
         image: pro35,
-        title: 'graphics design',
+        title: 'Photo Frame',
         category: 'graphics design',
+        link:pro35,
     },
 
 
     {
         id: 36,
         image: pro36,
-        title: 'graphics design',
+        title: 'Job Notice FB Poster',
         category: 'graphics design',
+        link: pro36,
     },
 
 
     {
         id: 37,
         image: pro37,
-        title: 'graphics design',
+        title: 'Indivisual Job Notice Poster',
         category: 'graphics design',
+        link: pro37,
     },
 
 
     {
         id: 39,
         image: pro39,
-        title: 'graphics design',
+        title: 'Employer Poster Job Utsob',
         category: 'graphics design',
+        link: pro39,
     },
 
     {
         id: 40,
         image: pro40,
-        title: 'graphics design',
+        title: '3D Large Frame',
         category: 'graphics design',
+        link: pro40,
     },
 
 
     {
         id: 41,
         image: pro41,
-        title: 'graphics design',
+        title: 'KV for Job Utsob',
         category: 'graphics design',
+        link: pro41,
     },
 
     {
         id: 45,
         image: pro45,
-        title: 'graphics design',
+        title: 'Logo Banner For Job Utsob',
         category: 'graphics design',
+        link: pro49,
     },
 
     {
         id: 46,
         image: pro46,
-        title: 'graphics design',
+        title: 'Resume Week FB Poster',
         category: 'graphics design',
+        link: pro46,
     },
 
 
     {
         id: 47,
         image: pro47,
-        title: 'graphics design',
+        title: 'New Year FB Poster',
         category: 'graphics design',
+        link: pro47,
     },
 
     {
         id: 48,
         image: pro48,
-        title: 'graphics design',
+        title: 'CDC Team Banner',
         category: 'graphics design',
+        link: pro48,
     },
 
     {
         id: 49,
         image: pro49,
-        title: 'graphics design',
+        title: 'KV Job Utsob Web Poster',
         category: 'graphics design',
+        link: pro49,
     },
 
     {
         id: 51,
         image: pro51,
-        title: 'certificate',
+        title: 'ICPC 2021',
         category: 'certificate',
+        link: pro51,
     },
 
     {
         id: 52,
         image: pro52,
-        title: 'certificate',
+        title: 'Basic Python Language Course',
         category: 'certificate',
+        link: pro52,
     },
 
     {
         id: 53,
         image: pro53,
-        title: 'certificate',
+        title: 'Road to Corporate by MS Khan',
         category: 'certificate',
+        link:pro53,
     },
 
 
     {
         id: 54,
         image: pro54,
-        title: 'certificate',
+        title: 'Road to corporate Workshop',
         category: 'certificate',
+        link: pro54,
     },
 
 
     {
         id: 55,
         image: pro55,
-        title: 'certificate',
+        title: 'Day Long Career Bootcamp',
         category: 'certificate',
+        link: pro55,
     },
 
 
     {
         id: 56,
         image: pro56,
-        title: 'certificate',
+        title: 'Job Utsob Organizer',
         category: 'certificate',
+        link: pro56,
     },
 
 
     {
         id: 57,
         image: pro57,
-        title: 'certificate',
+        title: 'Take of Contes-2021 Organizer',
         category: 'certificate',
     },
 
@@ -442,50 +469,58 @@ export const projectsData=[
     {
         id: 58,
         image: pro58,
-        title: 'certificate',
+        title: 'Net Impact Participation',
         category: 'certificate',
+        link: pro58,
     },
     {
         id: 59,
         image: pro59,
-        title: 'certificate',
+        title: 'Compleate React Developer',
         category: 'certificate',
+        link: pro59,
     },
 
     {
         id: 60,
         image: pro60,
-        title: 'certificate',
+        title: 'Advance HTML',
         category: 'certificate',
+        link: pro60,
     },
 
 
     {
         id: 61,
         image: pro61,
-        title: 'certificate',
+        title: 'Learn C with Easy Steps',
         category: 'certificate',
+        link: pro61,
     },
 
     {
         id: 62,
         image: pro62,
-        title: 'certificate',
+        title: 'Compleate JS Course',
         category: 'certificate',
+        link: pro62,
     },
 
     {
         id: 63,
         image: pro63,
-        title: 'certificate',
+        title: 'Video Editing in Premier',
         category: 'certificate',
+        link: pro63,
     },
 
     {
         id: 64,
         image: pro64,
-        title: 'certificate',
+        title: 'Unicef World Water Day',
         category: 'certificate',
+        link: pro64,
+
     },
 
 ];
