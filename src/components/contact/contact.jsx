@@ -27,9 +27,9 @@ const Contact = () => {
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">asraful@gmail.com</span>
+                            <span className="contact__card-data">asrafulsharker.me@gmail.com</span>
 
-                            <a href="mailto:asraful@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:asrafulsharker.me@gmail.com" target="_blank" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -37,7 +37,7 @@ const Contact = () => {
 
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+880 1628560659</span>
-                            <a href="whatsupp.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://wa.me/qr/I5UM7OGOXMETM1" target="_blank" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -45,7 +45,7 @@ const Contact = () => {
 
                             <h3 className="contact__card-title">Messenger</h3>
                             <span className="contact__card-data">user.m.me/md.nirob.asraful</span>
-                            <a href="https://user.m.me/md.nirob.asraful" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://m.me/md.nirob.asraful" target="_blank" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
