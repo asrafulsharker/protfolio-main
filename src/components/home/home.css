@@ -186,7 +186,18 @@
     .home__scroll{
         display: none;
     }
+
+    .about__me-icon svg{
+        width: 15% !important;
+    }
   }
+
+  @media screen and (max-width: 576px) {
+
+    .about__me-icon svg{
+        width: 35% !important;
+    }
+}
   
   /* For small devices */
   @media screen and (max-width: 350px) {
@@ -198,6 +209,9 @@
     .home__hand{
         width: 22px;
         height: 22px;
+    }
+    .about__me-icon svg{
+        width: 45% !important;
     }
   }
   
