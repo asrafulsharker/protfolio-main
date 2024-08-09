@@ -1,4 +1,5 @@
 import React from 'react'
+import Article from '../../assets/icon/article-icon.svg';
 
 const Info = () => {
   return (
@@ -16,9 +17,9 @@ const Info = () => {
         </div>
 
         <div className="about__box">
-            <i className="bx bx-support about__icon"></i>
-            <h3 className="about__title">Support</h3>
-            <span className="about__subtitle">Online 12/7</span>
+            <img src={Article} alt="" className="home__social-icon"  style={{height:'20px'}}/>
+            <h3 className="about__title">Published</h3>
+            <span className="about__subtitle">3+ Article</span>
         </div>
     </div>
   )
