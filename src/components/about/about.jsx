@@ -45,8 +45,8 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                I am a Computer Science & Engineering graduate (BSc) from Daffodil International University (DIU), Savar, Dhaka. Currently, I work as a Research Assistant in the Health and Informatics Lab at DIU, specializing in machine learning, deep learning, and data science. My work focuses on innovative solutions in health informatics. I've co-authored three peer-reviewed publications, collaborating with researchers from various universities, including Green University, the University of Calgary, and VNR Vignana Jyothi Institute of Engineering and Technology.                </p>
-                
+                I graduated with a BSc in Computer Science & Engineering from Daffodil International University (DIU), Savar, Dhaka. Currently, I am a Research Assistant at DIU's Health and Informatics Lab, specializing in machine learning, deep learning, and data science. My work is focused on creating innovative solutions in health informatics. I have co-authored three peer-reviewed publications and collaborated with researchers from institutions like Green University, the University of Calgary, and VNR Vignana Jyothi Institute of Engineering and Technology.                
+            </p>
             </div>
         </div>
     </section>
