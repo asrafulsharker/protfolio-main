@@ -12,6 +12,7 @@ import Footer from './components/footer/footer';
 import Scrollup from './components/scrollup/scrollup';
 import Work from './components/work/work';
 import Loading_test from './components/loading/loading_test';
+import Slider from './components/Publications/Publications';
 
 // import Gallary from "./components/photogallary/gallary";
 
@@ -46,6 +47,7 @@ function App() {
        <main className='main'>
          <Home />
          <About />
+         <Slider/>
          <Skills />
          <Services />
          <Qualification />
