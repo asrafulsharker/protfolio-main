@@ -1,4 +1,4 @@
-import React,{ useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Lottie from 'lottie-web';
 import './home.css';
 
@@ -14,11 +14,32 @@ const Data = () => {
       animationData: require('./me_icon.json')
     })
   },[])
-
+  
+    // Phrases to rotate
+    const phrases = [
+      "Machine Learning Enthusiast",
+      "Deep Learning Researcher",
+      "Data Scientist",
+      "AI Innovator",
+      "Health Informatics Specialist",
+      "Tech Explorer"
+    ];
+  
+    // State to manage the current phrase
+    const [currentPhrase, setCurrentPhrase] = useState(0);
+  
+    // Effect to rotate the phrases every minute
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentPhrase((prevPhrase) => (prevPhrase + 1) % phrases.length);
+      }, 6000); // Change every 60000 milliseconds (1 minute)
+  
+      return () => clearInterval(interval); // Clean up interval on component unmount
+    }, [phrases.length]);
   return (
     <div className="home__data">
       {/* .home__title-container */}
-        <h1 className="home__title">Nirob
+        <h1 className="home__title">Asraful
 
         {/* <svg
                   width="36"
@@ -72,8 +93,8 @@ const Data = () => {
                <div className="about__me-icon" ref={container}></div>
         </h1>
         
-        <h3 className="home__subtitle">VisualDeveloper</h3>
-        <p className="home__description">I have worked on several projects in the past half a year and gained expertise in frontend technologies such as HTML, CSS, Bootstrap, tailwind, JavaScript, and React JS, Firebase. I am also comfortable with the backend technologies like node.js, express, and MongoDB and also comfortable with Graphics Design.
+        <h3 className="home__subtitle">{phrases[currentPhrase]}</h3>
+        <p className="home__description">I am a Computer Science & Engineering graduate (BSc) from Daffodil International University (DIU), Savar, Dhaka, Bangladesh. Currently, I work as a Research Assistant in the Health and Informatics Lab at DIU. My expertise lies in machine learning, deep learning, and data science, where I focus on developing innovative solutions to complex problems in the health informatics domain. My work is driven by a passion for technology and its potential to make a meaningful impact on people's lives.
 
 </p>
        

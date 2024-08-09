@@ -11,14 +11,9 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
+            <div style={{display:'flex', alignItems:'center', flexDirection:'column', gap:' 1rem'}}>
             <img src={AboutImg} alt="" className="about__img" />
-
-            <div className="about__data">
-                <Info/>
-                <p className="about__description">
-                    Frontend developer, I create web pages with UI / UX user interface, I have 3 years of experience and many clients are happy with the projects carried out.
-                </p>
-                <a download="" href={CV} className="button button--flex">Download CV
+            <a download="" href={CV} className="button button--flex">Download CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +40,13 @@ const About = () => {
                 ></path>
               </svg>
                 </a>
+            </div>
+
+            <div className="about__data">
+                <Info/>
+                <p className="about__description">
+                I am a Computer Science & Engineering graduate (BSc) from Daffodil International University (DIU), Savar, Dhaka. Currently, I work as a Research Assistant in the Health and Informatics Lab at DIU, specializing in machine learning, deep learning, and data science. My work focuses on innovative solutions in health informatics. I've co-authored three peer-reviewed publications, collaborating with researchers from various universities, including Green University, the University of Calgary, and VNR Vignana Jyothi Institute of Engineering and Technology.                </p>
+                
             </div>
         </div>
     </section>
