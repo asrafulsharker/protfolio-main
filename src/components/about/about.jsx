@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/profile/ppd.png";
 import CV from "../../assets/MD Asraful Sharker Nirob Main CV.pdf";
 import Info from './info';
 
