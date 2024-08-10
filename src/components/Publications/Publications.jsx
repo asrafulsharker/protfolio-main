@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
-import Publication1 from '../../assets/publication/data in breaf.jpg'; // Correctly import your image
-import Publication2 from '../../assets/publication/ijrasat.jpg'; // Correctly import your image
-import Publication3 from '../../assets/publication/BIM.jpg'; // Correctly import your image
-import Publication4 from '../../assets/publication/data in breaf.jpg'; // Correctly import your image
+import Publication1 from '../../assets/publication/channels4_profile.jpg'; // Correctly import your image
+import Publication2 from '../../assets/publication/Green_University_of_Bangladesh_logo.jpg'; // Correctly import your image
+import Publication3 from '../../assets/publication/mqdefault.jpg'; // Correctly import your image
+import Publication4 from '../../assets/publication/channels4_profile (1).jpg'; // Correctly import your image
+import Publication5 from '../../assets/publication/Fc3gRsU6_400x400.png'; // Correctly import your image
+
 
 const Slider = () => {
   const slides = [
-    { id: 1, image: Publication1, description: 'Description for Slide 1', viewLink: 'https://asrafulme.netlify.app/static/media/about.f532a43be189d27803bc.jpg' },
-    { id: 2, image: Publication2, description: 'Description for Slide 2' },
-    { id: 3, image: Publication3, description: 'Description for Slide 3' },
-    { id: 4, image: Publication4, description: 'Description for Slide 4' },
-    { id: 5, image: Publication4, description: 'Description for Slide 5' },
+    { id: 1, image: Publication1, description: 'Daffodil International University', viewLink: 'https://daffodilvarsity.edu.bd/' },
+    { id: 2, image: Publication2, description: 'Green University',viewLink:"https://www.green.edu.bd/" },
+    { id: 3, image: Publication3, description: 'The University of Calgary', viewLink:"https://www.ucalgary.ca/"},
+    { id: 4, image: Publication4, description: 'VNR Vignana Jyothi Institute of Engineering and Technology' ,viewLink:"https://vnrvjiet.ac.in/"},
+    { id: 5, image: Publication5, description: 'East West University' },
     { id: 6, image: Publication4, description: 'Description for Slide 6' }
   ];
 
@@ -37,9 +39,9 @@ const Slider = () => {
   };
 
   return (
-    <section className="about section" id='about'>
-      <h2 className="section__title">Publication</h2>
-      <span className="section__subtitle">All my publications</span>
+    <section className="about section" id='collaboration'>
+      <h2 className="section__title">Collaborations</h2>
+      <span className="section__subtitle">All my collaborations</span>
 
       <div className="slider-container container grid">
         <div className="slider">
@@ -48,7 +50,7 @@ const Slider = () => {
               <div key={slide.id} className="slide">
                 <img src={slide.image} alt={`Slide ${slide.id}`} className="slide-image" />
                 <p className="slide-description">{slide.description}</p>
-                {slide.viewLink && <a href={slide.viewLink} target="_blank" rel="noopener noreferrer" className="slide-view-link">View</a>}
+                {/* {slide.viewLink && <a href={slide.viewLink} target="_blank" rel="noopener noreferrer" className="slide-view-link">View</a>} */}
               </div>
             ))}
           </div>

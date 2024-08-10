@@ -8,7 +8,7 @@ const Footer = () => {
                 <h1 className="footer__title">Nirob</h1>
 
                 <ul className="footer__list">
-                    <li>
+                    {/* <li>
                         <a href="#about" className="footer__link">About</a>
                     </li>
                     <li>
@@ -16,7 +16,51 @@ const Footer = () => {
                     </li>
                     <li>
                         <a href="#testimonials" className="footer__link">Testimonials</a>
-                    </li>
+                    </li> */}
+
+
+
+                    <li >
+                            <a href="#home" className="footer__link">
+                                <i className="uil uil-estate nav__icon"></i> Home
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#about" className="footer__link">
+                                <i className="uil uil-user nav__icon"></i> About
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#publications" className="footer__link">
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Publications
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#collaboration" className="footer__link">
+                                <i className="uil uil-file-alt nav__icon"></i> Collaborations
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#qualifications" className="footer__link">
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Qualifications
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#protfolio" className="footer__link">
+                                <i className="uil uil-scenery nav__icon"></i> Protfolio
+                                </a>
+                        </li>
+
+                        <li >
+                            <a href="#contact" className="footer__link">
+                                <i className="uil uil-message nav__icon"></i> Contact
+                                </a>
+                        </li>
 
                 </ul>
                 <div className="footer__social">
