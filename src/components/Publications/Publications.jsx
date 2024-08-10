@@ -54,8 +54,8 @@ const Slider = () => {
               </div>
             ))}
           </div>
-          <button className="slider-button prev" onClick={handlePrev}>&#10094;</button>
-          <button className="slider-button next" onClick={handleNext}>&#10095;</button>
+          {/* <button className="slider-button prev" onClick={handlePrev}>&#10094;</button>
+          <button className="slider-button next" onClick={handleNext}>&#10095;</button> */}
         </div>
       </div>
     </section>
