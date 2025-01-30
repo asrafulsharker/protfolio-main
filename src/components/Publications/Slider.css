@@ -148,6 +148,10 @@
   .slider-container {
     display: none;
   }
+  #collaboration{
+    display: none;
+  
+  }
 }
 
 @media (max-width: 480px) {
@@ -169,3 +173,5 @@
     height: 140px;
   }
 }
+
+
