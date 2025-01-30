@@ -56,7 +56,7 @@ const Footer = () => {
                                 </a>
                         </li>
 
-                        <li >
+                        <li className='rmv'>
                             <a href="#contact" className="footer__link">
                                 <i className="uil uil-message nav__icon"></i> Contact
                                 </a>
