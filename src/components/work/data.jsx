@@ -19,10 +19,16 @@ import pro58 from "../../assets/certificate/8.png";
 import pro62 from "../../assets/certificate/1695391087770.jpg";
 import pro63 from "../../assets/certificate/PID-521.jpg";
 import pro64 from "../../assets/certificate/14.png";
-
-
+import pro65 from "../../assets/certificate/ijrsat.jpg";
 
 export const projectsData=[
+    {
+        id: 0,
+        image: pro65,
+        title: 'IJRASET Journal Certificate',
+        category: 'certificate',
+        link: pro65,
+    },
     {
         id: 1,
         image: pro62,
