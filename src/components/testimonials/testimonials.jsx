@@ -22,8 +22,8 @@ const Testimonials = () => {
 
   return (
     <section className="testimonial container section" id='publications'>
-      <h2 className="section__title">My Publications</h2>
-      <span className="section__subtitle">Publications</span>
+      <h2 className="section__title">Publications</h2>
+      <span className="section__subtitle">My Most Recent Publications</span>
    
       <Swiper
         className="testimonial__container"
