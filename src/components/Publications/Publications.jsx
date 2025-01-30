@@ -10,12 +10,12 @@ import Publication7 from '../../assets/publication/sdulogo-uk-sort-feb2019.png';
 
 const Slider = () => {
   const originalSlides = [
-    { id: 1, image: Publication1, description: 'Daffodil International University', viewLink: 'https://daffodilvarsity.edu.bd/' },
+    { id: 1, image: Publication7, description: 'University of Southern Denmark', viewLink: 'https://www.sdu.dk/en' }, 
     { id: 2, image: Publication2, description: 'Green University', viewLink: 'https://www.green.edu.bd/' },
     { id: 3, image: Publication3, description: 'The University of Calgary', viewLink: 'https://www.ucalgary.ca/' },
     { id: 4, image: Publication4, description: 'VNR Vignana Jyothi Institute of Engineering and Technology', viewLink: 'https://vnrvjiet.ac.in/' },
     { id: 5, image: Publication5, description: 'East West University', viewLink: 'https://www.ewubd.edu/' },
-    { id: 6, image: Publication7, description: 'University of Southern Denmark', viewLink: 'https://www.sdu.dk/en' }, 
+    { id: 6, image: Publication1, description: 'Daffodil International University', viewLink: 'https://daffodilvarsity.edu.bd/' },
     { id: 7, image: Publication6, description: 'Istanbul Medipol University', viewLink: 'https://www.medipol.edu.tr/en' },
   ];
 

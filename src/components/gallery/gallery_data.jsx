@@ -15,19 +15,19 @@ import Image13 from "../../assets/gallery/11.jpg";
 
 
 const galleryData = [
-  { id: 1, src: Image1, alt: "Image 1" },
-  { id: 2, src: Image2, alt: "Image 2" },
-  { id: 3, src: Image3, alt: "Image 3" },
-  { id: 4, src: Image4, alt: "Image 4" },
-  { id: 5, src: Image5, alt: "Image 1" },
-  { id: 6, src: Image6, alt: "Image 2" },
-  { id: 7, src: Image7, alt: "Image 3" },
-  { id: 8, src: Image8, alt: "Image 4" },
-  { id: 9, src: Image9, alt: "Image 1" },
-  { id: 10, src: Image10, alt: "Image 2" },
-  { id: 11, src: Image11, alt: "Image 3" },
-  { id: 12, src: Image12, alt: "Image 4" },
-  { id: 13, src: Image13, alt: "Image 4" },
+  { id: 1, src: Image1, alt: "asrafulsharker 1" },
+  { id: 2, src: Image2, alt: "asrafulsharker 2" },
+  { id: 3, src: Image3, alt: "asrafulsharker 3" },
+  { id: 4, src: Image4, alt: "asrafulsharker 4" },
+  { id: 5, src: Image5, alt: "asrafulsharker 1" },
+  { id: 6, src: Image6, alt: "asrafulsharker 2" },
+  { id: 7, src: Image7, alt: "asrafulsharker 3" },
+  { id: 8, src: Image8, alt: "asrafulsharker 4" },
+  { id: 9, src: Image9, alt: "asrafulsharker 1" },
+  { id: 10, src: Image10, alt: "asrafulsharker 2" },
+  { id: 11, src: Image11, alt: "asrafulsharker 3" },
+  { id: 12, src: Image12, alt: "asrafulsharker 4" },
+  { id: 13, src: Image13, alt: "asrafulsharker 4" },
 ];
 
 export default galleryData;
