@@ -49,7 +49,7 @@ const Testimonials = () => {
             <SwiperSlide className="testimonial__card" key={id}>
               <img src={image} alt="" className='testimonial__img'/>
               <h3 className="testimonial__name">
-                {truncateTitle(title, 110)}
+                {truncateTitle(title, 100)}
               </h3>
               <p className="testimonial__description">  {truncateTitle(description, 240)}</p>
               <a href={link} className="button button--flex" target="_blank" rel="noopener noreferrer" style={{padding: "0.5rem 0.8rem", marginTop: '1rem'}}>

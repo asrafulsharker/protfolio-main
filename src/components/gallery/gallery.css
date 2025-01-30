@@ -1,0 +1,31 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .gallery__image:hover {
+    transform: scale(1.05);
+  }
+  
+  .fullscreen__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .fullscreen__image {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  

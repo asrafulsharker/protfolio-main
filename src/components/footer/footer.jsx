@@ -30,23 +30,23 @@ const Footer = () => {
                             <a href="#about" className="footer__link">
                                 <i className="uil uil-user nav__icon"></i> About
                                 </a>
-                        </li>
+                        </li >
 
-                        <li >
+                        <li className='rmv' >
                             <a href="#publications" className="footer__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Publications
+                                <i className="uil uil-briefcase-alt nav__icon rmv"></i> Publications
                                 </a>
                         </li>
 
-                        <li >
+                        <li  className='rmv'>
                             <a href="#collaboration" className="footer__link">
-                                <i className="uil uil-file-alt nav__icon"></i> Collaborations
+                                <i className="uil uil-file-alt nav__icon rmv"></i> Collaborations
                                 </a>
                         </li>
 
-                        <li >
+                        <li  >
                             <a href="#qualifications" className="footer__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Qualifications
+                                <i className="uil uil-briefcase-alt nav__icon "></i> Qualifications
                                 </a>
                         </li>
 

@@ -13,7 +13,7 @@ import Scrollup from './components/scrollup/scrollup';
 import Work from './components/work/work';
 import Loading_test from './components/loading/loading_test';
 import Slider from './components/Publications/Publications';
-
+import Gallery from './components/gallery/gallery';
 // import Gallary from "./components/photogallary/gallary";
 
 function App() {
@@ -53,7 +53,9 @@ function App() {
          <Skills />
          <Work />
         {/* <Services /> */}
+         <Gallery/>
          <Contact />
+       
        </main>
        <Footer />
        <Scrollup />

@@ -43,7 +43,7 @@ const Data = () => {
   return (
     <div className="home__data">
       {/* .home__title-container */}
-        <h1 className="home__title">Asraful
+        <h1 className="home__title">Asraful Sharker
 
         {/* <svg
                   width="36"

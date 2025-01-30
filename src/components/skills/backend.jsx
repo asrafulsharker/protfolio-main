@@ -4,13 +4,13 @@ const backend = () => {
   return (
     <div>
         <div className='skills__content'>
-        <h3 className="skills__title">Backend developer</h3>
+        <h3 className="skills__title"> Core Competencies</h3>
         <div className="skills__box">
         <div className="skills__group">
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">PHP</h3>
+                    <h3 className="skills__name">Deep Learning</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
@@ -18,7 +18,7 @@ const backend = () => {
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Node JS</h3>
+                    <h3 className="skills__name">Data Collection</h3>
                     <span className="skills__level">Basic</span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const backend = () => {
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Python</h3>
+                    <h3 className="skills__name">Explainable AI(XAI)</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const backend = () => {
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">My SQL</h3>
+                    <h3 className="skills__name">Reporting</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
@@ -45,7 +45,7 @@ const backend = () => {
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Firebase</h3>
+                    <h3 className="skills__name">Team Work</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
@@ -53,7 +53,7 @@ const backend = () => {
             <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">SQL</h3>
+                    <h3 className="skills__name">Machine Learning</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
