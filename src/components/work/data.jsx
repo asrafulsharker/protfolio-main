@@ -60,7 +60,7 @@ export const projectsData=[
         image: pro66,
         title: 'ECCE Conference Certificate',
         category: 'certificate',
-        link:pro53,
+        link:pro66,
     },
 
 
