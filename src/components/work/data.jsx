@@ -20,6 +20,7 @@ import pro62 from "../../assets/certificate/1695391087770.jpg";
 import pro63 from "../../assets/certificate/PID-521.jpg";
 import pro64 from "../../assets/certificate/14.png";
 import pro65 from "../../assets/certificate/ijrsat.jpg";
+import pro66 from "../../assets/certificate/1739419368587.jpg";
 
 export const projectsData=[
     {
@@ -40,7 +41,7 @@ export const projectsData=[
     {
         id: 2,
         image: pro63,
-        title: 'ECCE Conference Certificate',
+        title: 'ICCIT Conference Certificate',
         category: 'certificate',
         link: pro63,
     },
@@ -56,8 +57,8 @@ export const projectsData=[
 
     {
         id: 4,
-        image: pro53,
-        title: 'Road to Corporate by MS Khan',
+        image: pro66,
+        title: 'ECCE Conference Certificate',
         category: 'certificate',
         link:pro53,
     },
