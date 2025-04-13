@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/profile/ppd.png";
-import CV from "../../assets/MD Asraful Sharker Nirob Main CV.pdf";
+import AboutImg from "../../assets/profile1.jpg";
+import CV from "../../assets/Nirob_s_Resume_vf.pdf";
 import Info from './info';
 
 const About = () => {
@@ -45,7 +45,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
                 <p className="about__description">
-                I graduated with a BSc in Computer Science & Engineering from Daffodil International University (DIU), Savar, Dhaka. Currently, I am a Research Assistant at DIU's Health and Informatics Lab, specializing in machine learning, deep learning, and data science. My work is focused on creating innovative solutions in health informatics. I have co-authored three peer-reviewed publications and collaborated with researchers from institutions like Green University, the University of Calgary, and VNR Vignana Jyothi Institute of Engineering and Technology.                
+                I graduated with a BSc in Computer Science & Engineering from Daffodil International University (DIU), Savar, Dhaka. Currently, I am a Research Assistant at DIU's Health and Informatics Lab, specializing in machine learning, deep learning, and data science. My work is focused on creating innovative solutions in health informatics. I have co-authored ten peer-reviewed publications and collaborated with researchers from institutions like Green University, the University of Calgary, and VNR Vignana Jyothi Institute of Engineering and Technology.                
             </p>
             </div>
         </div>
